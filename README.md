@@ -13,16 +13,21 @@ pkg update && pkg upgrade -y
 pkg install -y python python-pip git cloudflared openssl-tool
 
 
+
+git clone https://github.com/shahid2005a/DGTL-CAM.git
+
+
+
 pip install flask colorama
 
 
-chmod +x dgtl_cam.py
-
-
-```
-
-```
 cd DGTL-CAM
+
+
+```
+
+```
+chmod +x DGTALCAM.py
 ```
 ```
 python DGTLCAM.py
